@@ -1,84 +1,83 @@
-  body {
-    padding-left: 15em;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff }
-  ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 12em }
-  h1 {
-    font-family: "Times New Roman" Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-  ul.navbar li {
-    background: rgb(166, 159, 159);
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
-    color: blue}
-  a:visited {
-    color: rgb(171, 4, 242) }
-  address {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted }
-    table, th, td, caption {
-      border: thin solid #000000;
-    }
-    
-    table {
-      border-collapse: collapse;
-      border-spacing: 0;
-      border-width: thin 0 0 thin;
-      margin: 0 0 1em;
-      table-layout: auto;
-      max-width: 100%;
-    }
-    th, td {
-      font-weight: normal;
-      text-align: left;
-      ;
-    }
-    th, caption {
-      background-color: #0a6796;
-      font-weight: 700;
-    }
-    table {
-      caption-side: top;
-    }
-    caption {
-        background-color: #fdfcf3; 
-        border: thin solid #000000;    
-      padding-top: 0,5em;
-      margin-top: 1em;
-    }
-    th, td {
-      padding: .2em .5em;
-      border-radius: .1em;  
-    }  
-    
-    thead th {
-      background-color: #ffebe6;
-      color: #c32e04;
-    }
-    
-    td {
-      font-style: "Times New Roman";
-      text-align: left;
-      box-shadow: inset 1px 3px 5px -3px rgba(0,0,0,.5);
-    }   
-    
-    td:empty{
-      box-shadow: none;
-    }
-  tbody {background-color: #fdfcf3;
-  color:#000000;}
-  big {font-size: 40px;}
+  /* 
+    CSS-Datei für eine Lernwebseite
+*/
+
+/* Allgemeine Einstellungen */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    background-color: #f9f9f9;
+}
+
+/* Überschriften */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #333333;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+/* Navigationsleiste */
+nav {
+    background-color: #333333;
+    color: #f9f9f9;
+    padding: 0.5em;
+}
+
+nav a {
+    color: #f9f9f9;
+    text-decoration: none;
+    margin-right: 0.5em;
+}
+
+/* Inhaltsbereich */
+main {
+    margin: 2em;
+}
+
+/* Inhaltsboxen */
+.content-box {
+    background-color: #f9f9f9;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* Bilder */
+img {
+    max-width: 100%;
+}
+
+/* Tabellen */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 0.5em;
+}
+
+/* Schaltflächen */
+.button {
+    background-color: #333333;
+    color: #f9f9f9;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
